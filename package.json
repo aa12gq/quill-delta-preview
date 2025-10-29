@@ -5,6 +5,10 @@
   "version": "1.0.0",
   "publisher": "aa12gq",
   "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aa12gq/quill-delta-preview.git"
+  },
   "engines": {
     "vscode": "^1.74.0"
   },
