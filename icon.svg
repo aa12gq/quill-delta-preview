@@ -1,0 +1,28 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="128" height="128" rx="16" fill="#4A90E2"/>
+
+  <!-- 文档图标 -->
+  <rect x="24" y="20" width="64" height="80" rx="4" fill="#FFFFFF"/>
+
+  <!-- 文档折角 -->
+  <path d="M 88 20 L 88 32 L 76 32 L 88 20 Z" fill="#E0E0E0"/>
+
+  <!-- 文本行 -->
+  <rect x="32" y="36" width="48" height="4" rx="2" fill="#4A90E2"/>
+  <rect x="32" y="46" width="40" height="4" rx="2" fill="#7AB8F5"/>
+  <rect x="32" y="56" width="44" height="4" rx="2" fill="#7AB8F5"/>
+  <rect x="32" y="66" width="36" height="4" rx="2" fill="#7AB8F5"/>
+
+  <!-- Quill 羽毛笔 -->
+  <g transform="translate(72, 70) rotate(-30)">
+    <ellipse cx="0" cy="0" rx="8" ry="20" fill="#FFA726"/>
+    <path d="M -2 -10 L 2 -10 L 1 5 L -1 5 Z" fill="#FF7043"/>
+    <line x1="-4" y1="-5" x2="4" y2="-5" stroke="#FF7043" stroke-width="0.5"/>
+    <line x1="-5" y1="0" x2="5" y2="0" stroke="#FF7043" stroke-width="0.5"/>
+    <line x1="-4" y1="5" x2="4" y2="5" stroke="#FF7043" stroke-width="0.5"/>
+  </g>
+
+  <!-- Delta 符号 (Δ) -->
+  <text x="96" y="100" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#FFD54F">Δ</text>
+</svg>
