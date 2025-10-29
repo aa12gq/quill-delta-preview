@@ -2,7 +2,7 @@
   "name": "quill-delta-preview",
   "displayName": "Quill Delta Preview",
   "description": "Preview Quill Delta JSON files in VSCode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "aa12gq",
   "icon": "icon.png",
   "repository": {
@@ -60,19 +60,20 @@
     ]
   },
   "scripts": {
-    "vscode:prepublish": "npm run compile",
-    "compile": "tsc -p ./ && npm run copy-webview",
-    "copy-webview": "mkdir -p out/webview && cp -r src/webview/* out/webview/",
-    "watch": "tsc -watch -p ./",
+    "vscode:prepublish": "npm run package",
+    "compile": "node build.js",
+    "watch": "node build.js --watch",
+    "package": "node build.js --production",
     "pretest": "npm run compile && npm run lint",
     "lint": "eslint src --ext ts",
     "test": "node ./out/test/runTest.js"
   },
   "devDependencies": {
-    "@types/vscode": "^1.74.0",
     "@types/node": "16.x",
+    "@types/vscode": "^1.74.0",
     "@typescript-eslint/eslint-plugin": "^5.45.0",
     "@typescript-eslint/parser": "^5.45.0",
+    "esbuild": "^0.25.11",
     "eslint": "^8.28.0",
     "typescript": "^4.9.4"
   },

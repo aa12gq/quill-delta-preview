@@ -1,10 +1,47 @@
+# VSCode 配置
 .vscode/**
 .vscode-test/**
+
+# 源代码（已编译到 out 目录）
 src/**
+tsconfig.json
+
+# 测试和示例文件
+test-delta.json
+test-extension.md
+test-preview.js
+examples/**
+
+# Git 相关
 .gitignore
-.yarnrc
+.git/**
+.github/**
+
+# 开发文档
+DEVELOPMENT.md
+PROJECT_SUMMARY.md
+QUICK_START.md
 vsc-extension-quickstart.md
-**/tsconfig.json
+
+# 构建和依赖
+node_modules/**
+.yarnrc
+package-lock.json
+pnpm-lock.yaml
+
+# Lint 和格式化
+.eslintrc.json
 **/.eslintrc.json
+eslint.config.mjs
+
+# 编译相关
 **/*.map
 **/*.ts
+!out/**/*.js
+
+# 旧版本打包文件
+*.vsix
+
+# 系统文件
+.DS_Store
+Thumbs.db
