@@ -1,0 +1,344 @@
+[
+  {
+    "insert": "复杂 Quill Delta 示例\n",
+    "attributes": {
+      "header": 1,
+      "align": "center",
+      "color": "#8e44ad"
+    }
+  },
+  {
+    "insert": "\n"
+  },
+  {
+    "insert": "这个示例展示了更复杂的 Delta 操作，包括：\n\n"
+  },
+  {
+    "insert": "1. 混合格式文本\n"
+  },
+  {
+    "insert": "2. 嵌套列表\n"
+  },
+  {
+    "insert": "3. 复杂表格\n"
+  },
+  {
+    "insert": "4. 代码和数学公式\n"
+  },
+  {
+    "insert": "5. 图片和媒体\n\n"
+  },
+  {
+    "insert": "混合格式示例：\n"
+  },
+  {
+    "insert": "这是"
+  },
+  {
+    "insert": "粗体",
+    "attributes": {
+      "bold": true
+    }
+  },
+  {
+    "insert": "和"
+  },
+  {
+    "insert": "斜体",
+    "attributes": {
+      "italic": true
+    }
+  },
+  {
+    "insert": "的组合，还有"
+  },
+  {
+    "insert": "彩色文字",
+    "attributes": {
+      "color": "#e67e22",
+      "background": "#f39c12",
+      "bold": true
+    }
+  },
+  {
+    "insert": "和"
+  },
+  {
+    "insert": "下划线",
+    "attributes": {
+      "underline": true,
+      "strike": true
+    }
+  },
+  {
+    "insert": "的混合效果。\n\n"
+  },
+  {
+    "insert": "嵌套列表：\n"
+  },
+  {
+    "insert": "• 主列表项 1\n"
+  },
+  {
+    "insert": "  • 子列表项 1.1\n"
+  },
+  {
+    "insert": "  • 子列表项 1.2\n"
+  },
+  {
+    "insert": "    • 子子列表项 1.2.1\n"
+  },
+  {
+    "insert": "    • 子子列表项 1.2.2\n"
+  },
+  {
+    "insert": "• 主列表项 2\n"
+  },
+  {
+    "insert": "  • 子列表项 2.1\n"
+  },
+  {
+    "insert": "  • 子列表项 2.2\n"
+  },
+  {
+    "insert": "\n"
+  },
+  {
+    "insert": "复杂表格：\n"
+  },
+  {
+    "insert": "项目",
+    "attributes": {
+      "table": "table-2",
+      "header": true,
+      "bold": true,
+      "background": "#3498db",
+      "color": "#ffffff"
+    }
+  },
+  {
+    "insert": "描述",
+    "attributes": {
+      "table": "table-2",
+      "header": true,
+      "bold": true,
+      "background": "#3498db",
+      "color": "#ffffff"
+    }
+  },
+  {
+    "insert": "状态",
+    "attributes": {
+      "table": "table-2",
+      "header": true,
+      "bold": true,
+      "background": "#3498db",
+      "color": "#ffffff"
+    }
+  },
+  {
+    "insert": "优先级",
+    "attributes": {
+      "table": "table-2",
+      "header": true,
+      "bold": true,
+      "background": "#3498db",
+      "color": "#ffffff"
+    }
+  },
+  {
+    "insert": "\n",
+    "attributes": {
+      "table": "table-2"
+    }
+  },
+  {
+    "insert": "功能开发",
+    "attributes": {
+      "table": "table-2"
+    }
+  },
+  {
+    "insert": "实现用户登录功能",
+    "attributes": {
+      "table": "table-2"
+    }
+  },
+  {
+    "insert": "进行中",
+    "attributes": {
+      "table": "table-2",
+      "color": "#f39c12",
+      "bold": true
+    }
+  },
+  {
+    "insert": "高",
+    "attributes": {
+      "table": "table-2",
+      "color": "#e74c3c",
+      "bold": true
+    }
+  },
+  {
+    "insert": "\n",
+    "attributes": {
+      "table": "table-2"
+    }
+  },
+  {
+    "insert": "Bug修复",
+    "attributes": {
+      "table": "table-2"
+    }
+  },
+  {
+    "insert": "修复页面加载缓慢问题",
+    "attributes": {
+      "table": "table-2"
+    }
+  },
+  {
+    "insert": "已完成",
+    "attributes": {
+      "table": "table-2",
+      "color": "#27ae60",
+      "bold": true
+    }
+  },
+  {
+    "insert": "中",
+    "attributes": {
+      "table": "table-2",
+      "color": "#f39c12",
+      "bold": true
+    }
+  },
+  {
+    "insert": "\n",
+    "attributes": {
+      "table": "table-2"
+    }
+  },
+  {
+    "insert": "代码重构",
+    "attributes": {
+      "table": "table-2"
+    }
+  },
+  {
+    "insert": "优化数据库查询性能",
+    "attributes": {
+      "table": "table-2"
+    }
+  },
+  {
+    "insert": "计划中",
+    "attributes": {
+      "table": "table-2",
+      "color": "#95a5a6"
+    }
+  },
+  {
+    "insert": "低",
+    "attributes": {
+      "table": "table-2",
+      "color": "#27ae60"
+    }
+  },
+  {
+    "insert": "\n",
+    "attributes": {
+      "table": "table-2"
+    }
+  },
+  {
+    "insert": "\n"
+  },
+  {
+    "insert": "代码示例：\n"
+  },
+  {
+    "insert": "// JavaScript 代码示例\nfunction createQuillDelta(content) {\n  return [\n    { insert: content },\n    { insert: '\\n' }\n  ];\n}\n\n// 使用示例\nconst delta = createQuillDelta('Hello World!');\nconsole.log(delta);",
+    "attributes": {
+      "code-block": true
+    }
+  },
+  {
+    "insert": "\n\n"
+  },
+  {
+    "insert": "数学公式（使用 LaTeX 格式）：\n"
+  },
+  {
+    "insert": "E = mc²",
+    "attributes": {
+      "formula": "E = mc^2"
+    }
+  },
+  {
+    "insert": "\n\n"
+  },
+  {
+    "insert": "引用和注释：\n"
+  },
+  {
+    "insert": "这是一个重要的引用，包含了关键信息。",
+    "attributes": {
+      "blockquote": true,
+      "background": "#ecf0f1",
+      "color": "#2c3e50"
+    }
+  },
+  {
+    "insert": "\n\n"
+  },
+  {
+    "insert": "注释：",
+    "attributes": {
+      "bold": true,
+      "color": "#7f8c8d"
+    }
+  },
+  {
+    "insert": " 这是一个注释，用于说明重要信息。",
+    "attributes": {
+      "background": "#f8f9fa",
+      "color": "#6c757d",
+      "italic": true
+    }
+  },
+  {
+    "insert": "\n\n"
+  },
+  {
+    "insert": "总结：\n"
+  },
+  {
+    "insert": "Quill Delta 格式非常灵活，支持：\n"
+  },
+  {
+    "insert": "• 丰富的文本格式\n"
+  },
+  {
+    "insert": "• 复杂的嵌套结构\n"
+  },
+  {
+    "insert": "• 表格和列表\n"
+  },
+  {
+    "insert": "• 代码和公式\n"
+  },
+  {
+    "insert": "• 自定义属性\n"
+  },
+  {
+    "insert": "• 媒体内容\n\n"
+  },
+  {
+    "insert": "这使得它成为现代富文本编辑器的理想数据格式。",
+    "attributes": {
+      "align": "justify"
+    }
+  }
+]

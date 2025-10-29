@@ -1,0 +1,217 @@
+[
+  {
+    "insert": "Quill Delta 富文本预览\n",
+    "attributes": {
+      "header": 1,
+      "color": "#2c3e50"
+    }
+  },
+  {
+    "insert": "\n这是一个功能丰富的示例，展示了 Quill Delta 的各种格式：\n\n"
+  },
+  {
+    "insert": "文本格式："
+  },
+  {
+    "insert": "粗体",
+    "attributes": {
+      "bold": true
+    }
+  },
+  {
+    "insert": "、"
+  },
+  {
+    "insert": "斜体",
+    "attributes": {
+      "italic": true
+    }
+  },
+  {
+    "insert": "、"
+  },
+  {
+    "insert": "下划线",
+    "attributes": {
+      "underline": true
+    }
+  },
+  {
+    "insert": "、"
+  },
+  {
+    "insert": "删除线",
+    "attributes": {
+      "strike": true
+    }
+  },
+  {
+    "insert": "\n\n"
+  },
+  {
+    "insert": "颜色和背景："
+  },
+  {
+    "insert": "红色文字",
+    "attributes": {
+      "color": "#e74c3c"
+    }
+  },
+  {
+    "insert": "、"
+  },
+  {
+    "insert": "绿色背景",
+    "attributes": {
+      "background": "#2ecc71",
+      "color": "#ffffff"
+    }
+  },
+  {
+    "insert": "\n\n"
+  },
+  {
+    "insert": "列表：\n"
+  },
+  {
+    "insert": "• 无序列表项 1\n"
+  },
+  {
+    "insert": "• 无序列表项 2\n"
+  },
+  {
+    "insert": "• 无序列表项 3\n"
+  },
+  {
+    "insert": "\n"
+  },
+  {
+    "insert": "1. 有序列表项 1\n"
+  },
+  {
+    "insert": "2. 有序列表项 2\n"
+  },
+  {
+    "insert": "3. 有序列表项 3\n"
+  },
+  {
+    "insert": "\n"
+  },
+  {
+    "insert": "代码块：\n"
+  },
+  {
+    "insert": "const quill = new Quill('#editor', {\n  theme: 'snow'\n});",
+    "attributes": {
+      "code-block": true
+    }
+  },
+  {
+    "insert": "\n\n"
+  },
+  {
+    "insert": "链接："
+  },
+  {
+    "insert": "Quill.js 官网",
+    "attributes": {
+      "link": "https://quilljs.com"
+    }
+  },
+  {
+    "insert": "\n\n"
+  },
+  {
+    "insert": "引用：\n"
+  },
+  {
+    "insert": "这是一个引用块，用于突出显示重要内容。",
+    "attributes": {
+      "blockquote": true
+    }
+  },
+  {
+    "insert": "\n\n"
+  },
+  {
+    "insert": "表格：\n"
+  },
+  {
+    "insert": "姓名",
+    "attributes": {
+      "table": "table-1"
+    }
+  },
+  {
+    "insert": "年龄",
+    "attributes": {
+      "table": "table-1"
+    }
+  },
+  {
+    "insert": "职业",
+    "attributes": {
+      "table": "table-1"
+    }
+  },
+  {
+    "insert": "\n",
+    "attributes": {
+      "table": "table-1"
+    }
+  },
+  {
+    "insert": "张三",
+    "attributes": {
+      "table": "table-1"
+    }
+  },
+  {
+    "insert": "25",
+    "attributes": {
+      "table": "table-1"
+    }
+  },
+  {
+    "insert": "开发者",
+    "attributes": {
+      "table": "table-1"
+    }
+  },
+  {
+    "insert": "\n",
+    "attributes": {
+      "table": "table-1"
+    }
+  },
+  {
+    "insert": "李四",
+    "attributes": {
+      "table": "table-1"
+    }
+  },
+  {
+    "insert": "30",
+    "attributes": {
+      "table": "table-1"
+    }
+  },
+  {
+    "insert": "设计师",
+    "attributes": {
+      "table": "table-1"
+    }
+  },
+  {
+    "insert": "\n",
+    "attributes": {
+      "table": "table-1"
+    }
+  },
+  {
+    "insert": "\n"
+  },
+  {
+    "insert": "总结：Quill Delta 格式支持丰富的文本格式，包括标题、段落、列表、代码块、表格等，非常适合富文本编辑器的数据存储。\n"
+  }
+]
