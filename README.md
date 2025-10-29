@@ -1,6 +1,19 @@
 # Quill Delta Preview
 
+<div align="center">
+
+[![Version](https://img.shields.io/visual-studio-marketplace/v/aa12gq.quill-delta-preview?color=blue&label=Version)](https://marketplace.visualstudio.com/items?itemName=aa12gq.quill-delta-preview)
+[![Installs](https://img.shields.io/visual-studio-marketplace/i/aa12gq.quill-delta-preview?color=success&label=Installs)](https://marketplace.visualstudio.com/items?itemName=aa12gq.quill-delta-preview)
+[![Rating](https://img.shields.io/visual-studio-marketplace/r/aa12gq.quill-delta-preview?color=orange&label=Rating)](https://marketplace.visualstudio.com/items?itemName=aa12gq.quill-delta-preview)
+[![License](https://img.shields.io/github/license/aa12gq/quill-delta-preview?label=License)](https://github.com/aa12gq/quill-delta-preview/blob/main/LICENSE)
+
 一个用于在 VSCode 中预览 Quill Delta JSON 格式文件的扩展。让你能够直观地查看富文本内容，无需手动解析 JSON 数据。
+
+[English](./README_EN.md) | 简体中文
+
+</div>
+
+---
 
 ## 功能特性
 
@@ -94,13 +107,58 @@ A: 预览会在你保存文件后自动更新。如果仍然不更新，可以�
 
 A: 当前版本仅支持预览功能，不支持编辑。如需编辑，请直接修改 JSON 文件。
 
+## 🗺️ 开发路线图
+
+查看我们的 [ROADMAP](./ROADMAP.md) 了解未来的功能计划：
+
+- ✨ 自定义主题设置
+- 📤 导出为 HTML/Markdown/PDF
+- 🔍 内容搜索和过滤
+- ✏️ 双向编辑模式
+- 🌍 国际化支持
+- 以及更多...
+
+## 🤝 贡献
+
+我们欢迎任何形式的贡献！请查看 [贡献指南](./CONTRIBUTING.md) 了解如何参与：
+
+- 💻 提交代码
+- 📝 改进文档
+- 🐛 报告问题
+- 💡 提出建议
+
+### 贡献者
+
+感谢所有贡献者的努力！
+
+<a href="https://github.com/aa12gq/quill-delta-preview/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=aa12gq/quill-delta-preview" />
+</a>
+
+## 📊 项目统计
+
+![Alt](https://repobeats.axiom.co/api/embed/yourid.svg "Repobeats analytics image")
+
+## 🔗 相关链接
+
+- [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=aa12gq.quill-delta-preview)
+- [GitHub Repository](https://github.com/aa12gq/quill-delta-preview)
+- [Issue Tracker](https://github.com/aa12gq/quill-delta-preview/issues)
+- [Changelog](https://github.com/aa12gq/quill-delta-preview/releases)
+- [Quill.js 官网](https://quilljs.com/)
+- [Quill Delta 格式文档](https://quilljs.com/docs/delta/)
+
 ## 反馈与支持
 
-如果遇到问题或有功能建议，欢迎提交 issue。
+如果遇到问题或有功能建议，欢迎：
+
+- 📬 [提交 Issue](https://github.com/aa12gq/quill-delta-preview/issues/new/choose)
+- 💬 [参与讨论](https://github.com/aa12gq/quill-delta-preview/discussions)
+- ⭐ [给项目点星](https://github.com/aa12gq/quill-delta-preview)
 
 ## 许可证
 
-MIT License
+[MIT License](./LICENSE) © 2024 [aa12gq](https://github.com/aa12gq)
 
 ## 更新日志
 
